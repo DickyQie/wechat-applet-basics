@@ -1,0 +1,55 @@
+<!--index.wxml-->
+<view class="container">
+    <view class='picker'>普通选择器</view>
+    <!--
+        value: value值表示选择了让的第几个，index===下标  从0开始
+        rang：对应数据
+        bindchang:value改变时触发的事件
+     -->
+    <picker bindchange='bindPickerChang' value='{{index}}' range='{{array}}'>
+        <view class='picker_one'>
+            当前的选择：{{array[index]}}
+        </view>
+    </picker>
+
+    <view class='picker tow'>时间选择器</view>
+    <!-- 
+      value:表示选择时间，格式:hh:mm
+      start: 有效时间范围内表示开始 格式：hh:mm 
+      end:有效时间范围内表示结束
+
+    -->
+    <picker bindchange='bindPickerTime' mode='time' start="00:11" end="23:11" value='{{time}}'>
+      <view>
+      当前时间：{{time}}
+      </view>
+    </picker>
+
+
+
+    <view class='picker tow'>日期选择器</view>
+      <!-- 
+      value:表示选择日期，格式:YYYY-MM_DD
+      start: 有效日期范围内表示开始
+      end:有效日期范围内表示结束
+    -->
+    <picker bindchange='bindPickerDate' mode='date' start="1991-01-01" end="2017-12-30" value='{{data}}'>
+      <view>
+      当前日期：{{data}}
+      </view>
+    </picker>
+
+    <view class='picker tow'>城市选择器</view>
+     <!-- 
+      value:示选中的省市区，默认选中每一列的第一个值
+    -->
+    <picker bindchange='bindPickerCity' mode='region' value='{{region}}'>
+      <view>
+      当前城市：{{region[0]}},{{region[1]}},{{region[2]}}
+      </view>
+    </picker>
+
+
+
+
+</view>

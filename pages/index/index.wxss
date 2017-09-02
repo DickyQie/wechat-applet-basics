@@ -1,0 +1,16 @@
+/**index.wxss**/
+.picker{
+    border-bottom: 1rpx solid #008B00;
+    padding-bottom: 5px;
+}
+picker{
+  padding: 9px 5px;
+  background: #008B8B;
+  color: white;
+}
+
+.tow{
+  padding-top: 5px;
+  margin-top: 9px;
+
+}
