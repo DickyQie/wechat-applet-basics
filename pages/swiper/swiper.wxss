@@ -1,0 +1,14 @@
+
+.swiper{
+  border-bottom: 1px solid green;
+  padding: 5px;
+}
+
+swiper{
+  height:185px;
+}
+
+.item_image image{
+  width: 100%;
+  height: 185px;
+}
