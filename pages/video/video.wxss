@@ -1,0 +1,15 @@
+/* pages/video/video.wxss */
+video{
+  width: 100%;
+}
+
+.text_danmu{
+  height: 40px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 15px;
+}
+button{
+  margin-top: 10px;
+
+}

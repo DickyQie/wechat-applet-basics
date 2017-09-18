@@ -1,0 +1,10 @@
+
+<!--
+    简单的实现音乐播放
+    src：播放音频的资源地址
+    poster：封面图片地址
+    controls：是否显示默认控件
+    name：歌曲名称
+    author:歌曲作者
+ -->
+<audio src="{{url}}" poster="{{poster}}" controls="true" author="{{author}}" name="{{name}}"></audio>

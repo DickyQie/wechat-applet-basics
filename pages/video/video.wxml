@@ -1,0 +1,14 @@
+
+<!--
+  播放视频
+   src：视频资源链接
+   danmu-list:弹幕列表
+   danmu-btn:是否显示弹幕按钮
+   enable-danmu:是否展示弹幕，只在初始化有效
+   loop：是否循环播放
+   muted  是否静音播放
+ -->
+ 
+<video id='videocontext' src="{{src}}" danmu-btn='true' danmu-list='{{danmuList}}' enable-danmu='true' loop='false' muted='false'></video>
+<input class='text_danmu' bindblur='bindInputBlur' type='text'></input>
+<button bindtap='bindSendDanmu' type='primary'>提交弹幕</button>

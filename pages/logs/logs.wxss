@@ -1,0 +1,12 @@
+view{
+  width: 100%;
+  border-bottom: 1px solid green;
+  border-top: 1px solid green;
+  height: 40px;
+  margin-top: 15px;
+  background: green;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 18px;
+}
